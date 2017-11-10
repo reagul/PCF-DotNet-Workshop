@@ -8,7 +8,10 @@ You may need to follow these instructions here to set your proxy settings for th
 - - - 
 #### Pre-Req
 
+PCF Developer Account 
+
 - Valid Pivotal Cloud Foundry Developer Account ** Find it on your Confluence Wiki **
+- Or Ask us for one
 
 Visual Studio 
 
