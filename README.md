@@ -101,12 +101,9 @@ Folks pair and start pushing Demo apps into the PCF env
 
 Demo focused on the basics of using Microsoft SQL Server with Pivotal Cloud Foundry.
 
--	Lab 3: [Introduction - Powerpoint]()
-
--	Lab 3.0: [Instructions](./Labs/Lab3.md)
-	-   Lab 3.1: Simple integration with .NET Core using a User Provided Service
-	-   Lab 3.2: Simple integration with .NET Framework using a User Provided Service
-	-   Lab 3.3: Simple integration for Azure SQL using the Azure Broker Service
+-   Simple integration with .NET Core using a User Provided Service
+-   Simple integration with .NET Framework using a User Provided Service
+-   Simple integration for Azure SQL using the Azure Broker Service
 
 ##### Session: CI/CD 
 
