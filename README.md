@@ -45,47 +45,20 @@ Folks pair and start pushing Demo apps into the PCF env
 
 ##### Break 15 mins
 
-##### Session : Introduction to the Cloud Foundry and the CLI 
+##### LAB 2 : Introduction to Cloud Foundry CLI 
 
-A half-day workshop designed to give developers an hands-on introduction to the power of Pivotal Cloud Foundry for .NET. 
-
--	Lab 2: [Introduction - Powerpoint]()
-
-	*Provides an overview of the capabilities of Pivotal Cloud Foundry and .NET. Covers the common developer topics and questions around .NET and cloud native application development.*
-    
 -	Lab 2.0: [Instructions](./Labs/Lab2.md)
 	-   Lab 2.1: Introduction to Orgs, Spaces, and Roles
 	-   Lab 2.2: Pushing a .NET Core Application
 	-   Lab 2.3: Pushing a .NET Classic Application
-	-   Lab 2.4: Scaling an Application
 	-   Lab 2.5: Creating and Binding to Services
-	-   Lab 2.6: Mapping and Unmapping Routes
-	-   Lab 2.7: Mapping and Unmapping Routes
 	-   Lab 2.8: Application Logging
 	-   Lab 2.9: Application Metrics
 
-##### Session 2-NET: Introduction to the Cloud Foundry and the CLI focused on .NET Framework 
 
-A half-day workshop designed to give developers an hands-on introduction to the power of Pivotal Cloud Foundry for .NET. 
+##### Demo/Discuss : PCF and SQL Server Integration
 
--	Lab 2-NET: [Introduction - Powerpoint]()
-
-	*Provides an overview of the capabilities of Pivotal Cloud Foundry and .NET. Covers the common developer topics and questions around .NET and cloud native application development.*
-    
--	Lab 2.0-NET: [Instructions](./Labs/Lab2-NET.md)
-	-   Lab 2.1: Introduction to Orgs, Spaces, and Roles
-	-   Lab 2.2: Pushing a .NET Classic Application
-	-   Lab 2.3: Scaling an Application
-	-   Lab 2.4: Mapping Routes
-	-   Lab 2.5: Set Environment Variables
-	-   Lab 2.6: Creating and Binding to Services
-	-   Lab 2.7: Setting up for Blue/Green Deployment
-	-   Lab 2.8: Application Logging
-	-   Lab 2.9: Application Metrics
-
-##### Session 3 (Advanced/Optional): PCF and SQL Server Integration
-
-A half-day workshop focused on the basics of using Microsoft SQL Server with Pivotal Cloud Foundry.
+Demo focused on the basics of using Microsoft SQL Server with Pivotal Cloud Foundry.
 
 -	Lab 3: [Introduction - Powerpoint]()
 
@@ -97,9 +70,12 @@ A half-day workshop focused on the basics of using Microsoft SQL Server with Piv
 	-   Lab 3.3: Simple integration for Azure SQL using the Azure Broker Service
 
 
-##### Session 4 (Advanced/Optional): Using .NET Framework with Pivotal Service Discovery and Configuration Server
+##### Lunch : 1 hr 
 
-A half-day workshop focused on the basics of integrating Pivotal's Configuration Services and Service Discovery capabilities with .NET Framework Applications.
+
+##### Session: DotNet Microservices and Demo 
+
+Demo focused on the basics of integrating Pivotal's Configuration Services and Service Discovery capabilities with .NET Framework Applications.
 
 -	Lab 4: [Introduction - Powerpoint]()
 
@@ -110,19 +86,8 @@ A half-day workshop focused on the basics of integrating Pivotal's Configuration
 	-   Lab 4.2: Implementing Service Discovery on the Web Services
 	-   Lab 4.2: Implementing Service Discovery on the Web Clients
 
-##### Session 5 (Advanced/Optional): Using Pivotal Single Sign-On
 
->***Requires installation of the SSO Tile*
-
--	Lab 5: [Introduction - Powerpoint]()
-
-
--	Lab 5.0: [Instructions](./Labs/Lab6.md)
-	-   Lab 5.1: Integrating Pivotal SSO with .NET Core using Steeltoe
-	-   Lab 5.2: Integrating Pivotal SSO with .NET 4.6x
-
-
-##### Session 6: CI-CD Pipelines with Team Services (Demos)
+##### Session : CI-CD Pipelines with Team Services (Demos)
 -	Demo 6: [Introduction - Powerpoint]()
 	-   Demo 6.1: Setting Up Endpoints for Services
 	-   Demo 6.2: Creating a .NET Core Build Job for PCF
