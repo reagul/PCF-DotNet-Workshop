@@ -4,10 +4,15 @@ This one day hands-on classroom style session will provide developers with hands
 
 Note: You may need to follow these instructions here to set your proxy settings for the CLI: [Using the cf CLI with an HTTP Proxy Server](https://docs.cloudfoundry.org/cf-cli/http-proxy.html).
 
-This workshop requires participants to have Visual Studio 2017 installed.  Visual Studio Code can be used for the .NET Core portion of the workshop.  Use the Windows instructions for the CF CLI.  
+#### Pre-Req
+
+This workshop requires participants to have Visual Studio 2017 installed. 
+Visual Studio Code can be used for the .NET Core portion of the workshop.  Use the Windows instructions for the CF CLI.  
 - [Download Visual Studio 2017 Community Edition](https://www.visualstudio.com/thank-you-downloading-visual-studio/?sku=Community&rel=15)
+- [Download Visual Studio 2017 for Mac here ]( https://www.visualstudio.com/vs/visual-studio-mac/ ) 
 - [Download Visual Studio Code](https://code.visualstudio.com/?wt.mc_id=vscom_downloads)
 - [Download Windows Cloud Foundry CLI](https://cli.run.pivotal.io/stable?release=windows64&source=github)
+- [Download Mac Cloud Foundry CLI](https://cli.run.pivotal.io/stable?release=macosx64-binary&source=github)
 - - -
 #### Agenda
 ##### Introductions, Purpose, and Objectives
