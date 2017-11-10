@@ -27,9 +27,6 @@ CF CLI
 - - -
 #### Agenda
 
-##### Session: Pivotal at Dell Today 
-
-- Silicon Vallye State of Mind 
 
 ##### Session: Introductions, Purpose, and Objectives
 
@@ -37,7 +34,11 @@ CF CLI
 - Team and Application you are working on
 - Are you using PCF today ?
 
-##### Session : Pivotal Cloud Foundry And Cloud Native
+##### Session: Pivotal at Dell Today 
+
+- Silicon Vallye State of Mind 
+
+##### Session : CloudNative Journey with Pivotal Cloud Foundry
 -  PCF and Cloud Native 
 -  Define Cloud Native 
 -  Why Cloud Native 
