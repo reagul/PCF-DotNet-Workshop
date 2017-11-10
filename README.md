@@ -25,7 +25,7 @@ CF CLI
 
 - - -
 #### Agenda
-##### Introductions, Purpose, and Objectives
+##### Session: Introductions, Purpose, and Objectives
 
 - Tell us about yourself 
 - Team and Application you are working on
@@ -97,7 +97,7 @@ Folks pair and start pushing Demo apps into the PCF env
 -   Application Metrics: Optional Demo PCF Metrics Viewer 
 
 
-##### Demo/Discuss : PCF and SQL Server Integration
+##### Session Demo/Discuss : PCF and SQL Server Integration
 
 Demo focused on the basics of using Microsoft SQL Server with Pivotal Cloud Foundry.
 
@@ -123,7 +123,7 @@ Discuss Microservices on PCF
 
 	*Advanced workshop focused on the integration of Service Discovery functionality in .NET client and server applications. Presentation topics include service discovery principles, configuration services, and security considerations. This is a hands-on workshop is designed to help developers create .NET Framework applications from scratch and make changes to quickly enable service discovery.*
 
-##### Demos
+##### Microservice Demos
 
 -   Demo Config Server
 -   Demo Service Discovery 
