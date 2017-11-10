@@ -43,7 +43,7 @@ Folks pair and start pushing Demo apps into the PCF env
 - Discuss Mechanics of CI / CD and Rollback 
 - Discuss Blue Green Deployment 
 
-##### Break 15 mins
+##### Break 15 mins @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 ##### LAB 2 : Introduction to Cloud Foundry CLI 
 
@@ -62,24 +62,26 @@ Demo focused on the basics of using Microsoft SQL Server with Pivotal Cloud Foun
 
 -	Lab 3: [Introduction - Powerpoint]()
 
-	*Advanced workshop focused on the integration of Microsoft SQL Server with Pivotal Cloud Foundry. Presentation topics include cloud native design, data migration, and security requirements. This is a hands-on workshop is designed to help developers create .NET applications from scratch and make changes to quickly enable SQL Server scaffolding and then update the application to take advantage of PCF.*
-    
 -	Lab 3.0: [Instructions](./Labs/Lab3.md)
 	-   Lab 3.1: Simple integration with .NET Core using a User Provided Service
 	-   Lab 3.2: Simple integration with .NET Framework using a User Provided Service
 	-   Lab 3.3: Simple integration for Azure SQL using the Azure Broker Service
 
 
-##### Lunch : 1 hr 
+##### Lunch : 1 hr @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
 ##### Session: DotNet Microservices and Demo 
 
-Demo focused on the basics of integrating Pivotal's Configuration Services and Service Discovery capabilities with .NET Framework Applications.
+Discuss Microservices on PCF 
+
+- Typical Journey of Microservices 
 
 -	Lab 4: [Introduction - Powerpoint]()
 
 	*Advanced workshop focused on the integration of Service Discovery functionality in .NET client and server applications. Presentation topics include service discovery principles, configuration services, and security considerations. This is a hands-on workshop is designed to help developers create .NET Framework applications from scratch and make changes to quickly enable service discovery.*
+
+##### Demos
 
 -	Lab 4.0: [Instructions](./Labs/Lab5.md)
         -   Introduce SteelToe
