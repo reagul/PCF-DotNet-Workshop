@@ -49,7 +49,7 @@ CF CLI
 - Demo Dotnet Buildpacks 
 
 
-##### LAB 1 : 
+##### LAB 1 : Pushing apps on PCF  
 Folks pair and start pushing Demo apps into the PCF env 
 
 - Log into your PCF instance on CLI `cf login -a https://{yourapiendpoint}`
@@ -87,8 +87,6 @@ Folks pair and start pushing Demo apps into the PCF env
 
 -	Lab 2.0: [Instructions](./Labs/Lab2.md)
 	-   Lab 2.1: Introduction to Orgs, Spaces, and Roles
-	-   Lab 2.2: Pushing a .NET Core Application
-	-   Lab 2.3: Pushing a .NET Classic Application
 	-   Lab 2.5: Creating and Binding to Services
 	-   Lab 2.8: Application Logging
 	-   Lab 2.9: Application Metrics
