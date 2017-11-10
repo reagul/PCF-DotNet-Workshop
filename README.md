@@ -107,7 +107,8 @@ Demo focused on the basics of using Microsoft SQL Server with Pivotal Cloud Foun
 
 ##### Session: CI/CD 
 
-- Discuss Mechanics of CI / CD and Rollback
+- Discuss Mechanics of CI / CD : Discuss Routing 
+- How Rollback Works 
 - Discuss Blue Green Deployment 
 
 ##### Lunch : 1 hr @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
