@@ -5,7 +5,7 @@ This one day hands-on classroom style session will provide developers with hands
 - ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) Proxy issues while connecting to your PCF endpoint:  ![#f03c15](https://placehold.it/15/f03c15/000000?text=+)
 
 You may need to follow these instructions here to set your proxy settings for the CLI: [Using the cf CLI with an HTTP Proxy Server](https://docs.cloudfoundry.org/cf-cli/http-proxy.html).
-
+- - - 
 #### Pre-Req
 
 - Valid Pivotal Cloud Foundry Developer Account ** Find it on your Confluence Wiki **
