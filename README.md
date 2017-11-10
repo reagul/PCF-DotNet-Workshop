@@ -131,6 +131,8 @@ Discuss Microservices on PCF
 -   Demo PCF Stack Trace
 -   Demo WCF / ASMX / Feature Toggle 
 
+##### Break 15 mins @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
 ##### Security with PCF SSO #####
 
 - Discuss PCF SSO 
