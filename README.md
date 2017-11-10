@@ -153,5 +153,5 @@ Discuss Microservices on PCF
 
 ##### Session: Pivotal Kontainer Services 
 
-- Kubernetes on Steroids 
+- Kubernetes on Steroids  [Read more here](https://pivotal.io/pks)
 
