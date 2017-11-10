@@ -36,7 +36,7 @@ CF CLI
 
 ##### Session: Pivotal at Dell Today 
 
-- Silicon Vallye State of Mind 
+- Silicon Valley State of Mind 
 
 ##### Session : CloudNative Journey with Pivotal Cloud Foundry
 -  PCF and Cloud Native 
