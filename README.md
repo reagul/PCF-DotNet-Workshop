@@ -12,13 +12,40 @@ This workshop requires participants to have Visual Studio 2017 installed.  Visua
 #### Agenda
 ##### Introductions, Purpose, and Objectives
 
-##### Overview: Pivotal Cloud Foundry
--   [Powerpoint]()
+- Tell us about yourself 
+- Team and Application you are working on
+- Are you using PCF today ?
 
-##### Session 1: Cloud Native Design and .NET
--   [Powerpoint]()
+##### Session : Pivotal Cloud Foundry And Cloud Native
+-  PCF and Cloud Native 
+-  Define Cloud Native 
+-  Why Cloud Native 
+- Cloud Native Operability 
 
-##### Session 2: Introduction to the Cloud Foundry and the CLI 
+##### Session: PCF and .NET
+
+- PCF and Dotnet Intersection 
+- Demo CF push 
+- Demo CF Cli 
+- Discuss Stemcell / Buildpacks 
+- Containers and Diego
+- Windows Garden Containers 
+- Dotnet Middleware { Build packs } 
+- Demo Dotnet Buildpacks 
+
+
+##### LAB 1 : 
+
+Folks pair and start pushing Demo apps into the PCF env 
+- CF PUSH 
+- CF Scale 
+- MAP Routes 
+- Discuss Mechanics of CI / CD and Rollback 
+- Discuss Blue Green Deployment 
+
+##### Break 15 mins
+
+##### Session : Introduction to the Cloud Foundry and the CLI 
 
 A half-day workshop designed to give developers an hands-on introduction to the power of Pivotal Cloud Foundry for .NET. 
 
