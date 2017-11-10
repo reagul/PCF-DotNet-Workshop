@@ -54,11 +54,14 @@ CF CLI
  ##### This will be the base directory from which you will invoke CF push command #####
  
 Folks pair and start pushing Demo apps into the PCF env 
+
+- Log into your PCF instance on CLI `cf login -a https://{yourapiendpoint}`
+- `cf target` 
 - Push App to PCF : `cf push`
 - Edit Manifest and change app name and `cf push ` again
 - Scale App : `cf scale myApp -i 5 `
-- MAP Routes :
-- Discuss Mechanics of CI / CD and Rollback 
+- MAP Routes : `cf map-route {yourappname} {domainname} --hostname {yourappname}`
+- Discuss Mechanics of CI / CD and Rollback
 - Discuss Blue Green Deployment 
 
 *** Nifty Manifest Generator *** [here](http://cfmanigen.mybluemix.net/)
