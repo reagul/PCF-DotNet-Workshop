@@ -49,8 +49,9 @@ CF CLI
 ##### LAB 1 : 
 
  [Dotnet Environment Viewer App](https://github.com/reagul/pcf-dotnet-environment-viewer) 
- - git clone 
- - cd ViewEnvironment
+ - git clone https://github.com/reagul/pcf-dotnet-environment-viewer
+ - cd ViewEnvironment 
+ ##### This will be the base directory from which you will invoke CF push command #####
  
 Folks pair and start pushing Demo apps into the PCF env 
 - Push App to PCF : `cf push`
