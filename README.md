@@ -48,14 +48,19 @@ CF CLI
 
 ##### LAB 1 : 
 
- [Demo App](https://github.com/reagul/pcf-dotnet-environment-viewer) 
+ [Dotnet Environment Viewer App](https://github.com/reagul/pcf-dotnet-environment-viewer) 
+ - git clone 
+ - cd ViewEnvironment
  
 Folks pair and start pushing Demo apps into the PCF env 
 - CF PUSH 
+- Edit Manifest
 - CF Scale 
 - MAP Routes 
 - Discuss Mechanics of CI / CD and Rollback 
 - Discuss Blue Green Deployment 
+
+*** Nifty Manifest Generator *** [here](http://cfmanigen.mybluemix.net/)
 
 ##### Break 15 mins @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
