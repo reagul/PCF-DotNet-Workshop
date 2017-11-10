@@ -76,8 +76,7 @@ Demo focused on the basics of using Microsoft SQL Server with Pivotal Cloud Foun
 Discuss Microservices on PCF 
 
 - Typical Journey of Microservices 
-
--	Lab 4: [Introduction - Powerpoint]()
+- Considerations 
 
 	*Advanced workshop focused on the integration of Service Discovery functionality in .NET client and server applications. Presentation topics include service discovery principles, configuration services, and security considerations. This is a hands-on workshop is designed to help developers create .NET Framework applications from scratch and make changes to quickly enable service discovery.*
 
