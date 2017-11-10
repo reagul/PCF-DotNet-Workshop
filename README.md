@@ -82,12 +82,13 @@ Demo focused on the basics of integrating Pivotal's Configuration Services and S
 	*Advanced workshop focused on the integration of Service Discovery functionality in .NET client and server applications. Presentation topics include service discovery principles, configuration services, and security considerations. This is a hands-on workshop is designed to help developers create .NET Framework applications from scratch and make changes to quickly enable service discovery.*
 
 -	Lab 4.0: [Instructions](./Labs/Lab5.md)
-	-   Lab 4.1: Implementing Pivotal Config Server
-	-   Lab 4.2: Implementing Service Discovery on the Web Services
-	-   Lab 4.2: Implementing Service Discovery on the Web Clients
+        -   Introduce SteelToe
+	-   Lab 4.1: Demo Config Server
+	-   Lab 4.2: Demo Service Discovery 
+	-   Lab 4.2: Demo Hysterix 
 
 
-##### Session : CI-CD Pipelines with Team Services (Demos)
+##### Session Optional : CI-CD Pipelines with Team Services (Demos)
 -	Demo 6: [Introduction - Powerpoint]()
 	-   Demo 6.1: Setting Up Endpoints for Services
 	-   Demo 6.2: Creating a .NET Core Build Job for PCF
