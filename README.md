@@ -132,12 +132,12 @@ Discuss Microservices on PCF
 -   Demo WCF / ASMX / Flip-Flop
 
 
-##### Session Optional : CI-CD Pipelines with Team Services (Demos)
+##### Session Optional : CI-CD Pipelines with Team Services (Demo)
 
 -   Setting Up Endpoints for Services
 -   Creating a .NET Core Build Job for PCF
 -   Creating a .NET Classic Build Job for PCF
 -   Creating a Deployment Definition for PCF
 -   Creating a Blue-Green Deployment Definition for PCF
--	Implementation Guide: [CI/CD Pipelines for VSTS/TFS](./documents/PivotalTeamFoundationServicesCICD.docx.pdf)  
+-   Implementation Guide: [CI/CD Pipelines for VSTS/TFS](./documents/PivotalTeamFoundationServicesCICD.docx.pdf)  
 
