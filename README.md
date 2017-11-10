@@ -91,7 +91,7 @@ Folks pair and start pushing Demo apps into the PCF env
    `cf create-service p-mysql 100mb mysqldb-{yourappname}`
 - Bind Service : Use the Dotnet classic app name instead of  {yourappname} 
    `cf bind-service {yourappname} mysqldb-{yourappname} ` 
-   
+- Open the Environment Viewer app and locate the MySQL environment Vars.
 -   Application Logging : 
 	`cf logs <appname>  --recent`
 -   Application Metrics: Optional Demo PCF Metrics Viewer 
@@ -101,9 +101,10 @@ Folks pair and start pushing Demo apps into the PCF env
 
 Demo focused on the basics of using Microsoft SQL Server with Pivotal Cloud Foundry.
 
--   Simple integration with .NET Core using a User Provided Service
--   Simple integration with .NET Framework using a User Provided Service
--   Simple integration for Azure SQL using the Azure Broker Service
+-  Integration with .NET Core using a User Provided Service
+-  Integration with .NET Framework using a User Provided Service
+-  Integration for Azure SQL using the Azure Broker Service
+-  Credential Rotation with CredHub 
 
 ##### Session: CI/CD 
 
@@ -129,7 +130,7 @@ Discuss Microservices on PCF
 -   Demo Service Discovery 
 -   Demo Hysterix
 -   Demo PCF Stack Trace
--   Demo WCF / ASMX / Flip-Flop
+-   Demo WCF / ASMX / Feature Toggle 
 
 
 ##### Session Optional : CI-CD Pipelines with Team Services (Demo)
