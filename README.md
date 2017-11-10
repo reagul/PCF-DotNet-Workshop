@@ -146,11 +146,11 @@ Discuss Microservices on PCF
 -   Creating a Blue-Green Deployment Definition for PCF
 -   Implementation Guide: [CI/CD Pipelines for VSTS/TFS](./documents/PivotalTeamFoundationServicesCICD.docx.pdf)  
 
-##### Pivotal LABS 
+##### Session: Pivotal LABS 
 
 - Silicon Vallye State of Mind 
 
-##### Pivotal Kontainer Services 
+##### Session: Pivotal Kontainer Services 
 
 - Kubernetes on Steroids 
 
