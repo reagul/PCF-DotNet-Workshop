@@ -59,9 +59,9 @@ Folks pair and start pushing Demo apps into the PCF env
 - We will work with both Classic and Dotnet Core versions for this Demo.
 ```
 ```diff
-+ A) Dotnet Classic App : [Dotnet Environment Viewer App](https://github.com/reagul/pcf-dotnet-environment-viewer) 
++ A) Dotnet Classic App : 
  - git clone https://github.com/reagul/pcf-dotnet-environment-viewer
- - cd ViewEnvironment 
+ - cd ViewEnvironment. NOTE this is the dir that contains already compiled code for convinience
  
 + B) Dotnet Core App :
  - git clone https://github.com/reagul/Workshop-Web-MVC-Core
