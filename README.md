@@ -111,7 +111,7 @@ Demo focused on the basics of using Microsoft SQL Server with Pivotal Cloud Foun
 - How Rollback Works 
 - Discuss Blue Green Deployment 
 
-##### Lunch : 1 hr @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+##### Lunch : 1 hr @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
 
 ##### Session: DotNet Microservices and Demo 
@@ -125,19 +125,19 @@ Discuss Microservices on PCF
 
 ##### Demos
 
--	Lab 4.0: [Instructions](./Labs/Lab5.md)
-        -   Introduce SteelToe
-	-   Lab 4.1: Demo Config Server
-	-   Lab 4.2: Demo Service Discovery 
-	-   Lab 4.2: Demo Hysterix 
+-   Demo Config Server
+-   Demo Service Discovery 
+-   Demo Hysterix
+-   Demo PCF Stack Trace
+-   Demo WCF / ASMX / Flip-Flop
 
 
 ##### Session Optional : CI-CD Pipelines with Team Services (Demos)
--	Demo 6: [Introduction - Powerpoint]()
-	-   Demo 6.1: Setting Up Endpoints for Services
-	-   Demo 6.2: Creating a .NET Core Build Job for PCF
-	-   Demo 6.3: Creating a .NET Classic Build Job for PCF
-	-   Demo 6.4: Creating a Deployment Definition for PCF
-	-   Demo 6.5: Creating a Blue-Green Deployment Definition for PCF
+
+-   Setting Up Endpoints for Services
+-   Creating a .NET Core Build Job for PCF
+-   Creating a .NET Classic Build Job for PCF
+-   Creating a Deployment Definition for PCF
+-   Creating a Blue-Green Deployment Definition for PCF
 -	Implementation Guide: [CI/CD Pipelines for VSTS/TFS](./documents/PivotalTeamFoundationServicesCICD.docx.pdf)  
 
