@@ -50,18 +50,27 @@ CF CLI
 
 
 ##### LAB 1 : 
-
- [Dotnet Environment Viewer App](https://github.com/reagul/pcf-dotnet-environment-viewer) 
- - git clone https://github.com/reagul/pcf-dotnet-environment-viewer
- - cd ViewEnvironment 
- ##### This will be the base directory from which you will invoke CF push command #####
- 
 Folks pair and start pushing Demo apps into the PCF env 
 
 - Log into your PCF instance on CLI `cf login -a https://{yourapiendpoint}`
 - `cf target` 
-- Push App to PCF : `cf push`
-- Edit Manifest and change app name and `cf push ` again
+
+We will work with both Classic and Dotnet Core versions for this Demo.
+
+ A) Dotnet Classic App : [Dotnet Environment Viewer App](https://github.com/reagul/pcf-dotnet-environment-viewer) 
+ - git clone https://github.com/reagul/pcf-dotnet-environment-viewer
+ - cd ViewEnvironment 
+ 
+ B) Dotnet Core App :
+ - git clone https://github.com/reagul/Workshop-Web-MVC-Core
+ - cd Workshop-Web-MVC-Core
+ - Run `dotnet restore`
+ - mkdir PUBLISH 
+ - Run `dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH`
+ - Run `cf push {yourappname} -b dotnet_core_buildpack  -p  PUBLISH`
+ 
+ 
+- Manifest : Change the `-name` in Manifest for Classic App and `cf push ` again
 - Scale App : `cf scale myApp -i 5 `
 - MAP Routes : `cf map-route {yourappname} {domainname} --hostname {yourappname}`
 - Discuss Mechanics of CI / CD and Rollback
