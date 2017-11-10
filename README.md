@@ -42,6 +42,7 @@ CF CLI
 - PCF and Dotnet Intersection 
 - Demo CF push 
 - Demo CF Cli 
+- Demo Orgs, Spaces, and Roles
 - Discuss Stemcell / Buildpacks 
 - Containers and Diego
 - Windows Garden Containers 
@@ -62,6 +63,7 @@ Folks pair and start pushing Demo apps into the PCF env
 + A) Dotnet Classic App : 
  - git clone https://github.com/reagul/pcf-dotnet-environment-viewer
  - cd ViewEnvironment. NOTE this is the dir that contains already compiled code for convinience
+ - `cf push`
  
 + B) Dotnet Core App :
  - git clone https://github.com/reagul/Workshop-Web-MVC-Core
@@ -76,20 +78,23 @@ Folks pair and start pushing Demo apps into the PCF env
 - Manifest : Change the `-name` in Manifest for Classic App and `cf push ` again
 - Scale App : `cf scale myApp -i 5 `
 - MAP Routes : `cf map-route {yourappname} {domainname} --hostname {yourappname}`
-- Discuss Mechanics of CI / CD and Rollback
-- Discuss Blue Green Deployment 
+
 
 *** Nifty Manifest Generator *** [here](http://cfmanigen.mybluemix.net/)
 
 ##### Break 15 mins @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-##### LAB 2 : Introduction to Cloud Foundry CLI 
+##### LAB 2 : Services / Logging / Metrics 
 
--	Lab 2.0: [Instructions](./Labs/Lab2.md)
-	-   Lab 2.1: Introduction to Orgs, Spaces, and Roles
-	-   Lab 2.5: Creating and Binding to Services
-	-   Lab 2.8: Application Logging
-	-   Lab 2.9: Application Metrics
+-  List the available services in the marketplace  `cf m`
+- Create a MySQL Service
+   `cf create-service p-mysql 100mb mysqldb-{yourappname}`
+- Bind Service : Use the Dotnet classic app name instead of  {yourappname} 
+   `cf bind-service {yourappname} mysqldb-{yourappname} ` 
+   
+-   Application Logging : 
+	`cf logs <appname>  --recent`
+-   Application Metrics: Optional Demo PCF Metrics Viewer 
 
 
 ##### Demo/Discuss : PCF and SQL Server Integration
@@ -103,6 +108,10 @@ Demo focused on the basics of using Microsoft SQL Server with Pivotal Cloud Foun
 	-   Lab 3.2: Simple integration with .NET Framework using a User Provided Service
 	-   Lab 3.3: Simple integration for Azure SQL using the Azure Broker Service
 
+##### Session: CI/CD 
+
+- Discuss Mechanics of CI / CD and Rollback
+- Discuss Blue Green Deployment 
 
 ##### Lunch : 1 hr @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
