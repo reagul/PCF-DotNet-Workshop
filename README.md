@@ -77,7 +77,8 @@ Folks pair and start pushing Demo apps into the PCF env
  
 - Manifest : Change the `-name` in Manifest for Classic App and `cf push ` again
 - Scale App : `cf scale myApp -i 5 `
-- MAP Routes : `cf map-route {yourappname} {domainname} --hostname {yourappname}`
+- MAP Routes : `cf map-route {yourappname} {domainname} --hostname {yourappname}`. Why Multiple routes ?
+
 
 
 *** Nifty Manifest Generator *** [here](http://cfmanigen.mybluemix.net/)
