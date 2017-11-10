@@ -46,8 +46,9 @@ CF CLI
 
 ##### LAB 1 : 
 
--- [Demo App](https://github.com/reagul/pcf-dotnet-environment-viewer)
--- Folks pair and start pushing Demo apps into the PCF env 
+ [Demo App](https://github.com/reagul/pcf-dotnet-environment-viewer) 
+ 
+Folks pair and start pushing Demo apps into the PCF env 
 - CF PUSH 
 - CF Scale 
 - MAP Routes 
