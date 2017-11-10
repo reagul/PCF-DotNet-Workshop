@@ -55,7 +55,7 @@ Folks pair and start pushing Demo apps into the PCF env
 - Log into your PCF instance on CLI `cf login -a https://{yourapiendpoint}`
 - `cf target` 
 
-<p style='color:red'>We will work with both Classic and Dotnet Core versions for this Demo.</p>
+<p style='color:red'> We will work with both Classic and Dotnet Core versions for this Demo. </p>
 
  A) Dotnet Classic App : [Dotnet Environment Viewer App](https://github.com/reagul/pcf-dotnet-environment-viewer) 
  - git clone https://github.com/reagul/pcf-dotnet-environment-viewer
