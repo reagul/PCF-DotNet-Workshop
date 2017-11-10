@@ -53,10 +53,10 @@ CF CLI
  - cd ViewEnvironment
  
 Folks pair and start pushing Demo apps into the PCF env 
-- `cf push`
-- Edit Manifest
-- CF Scale 
-- MAP Routes 
+- Push App to PCF : `cf push`
+- Edit Manifest and change app name and `cf push ` again
+- Scale App : `cf scale myApp -i 5 `
+- MAP Routes :
 - Discuss Mechanics of CI / CD and Rollback 
 - Discuss Blue Green Deployment 
 
