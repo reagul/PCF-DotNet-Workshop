@@ -1,4 +1,5 @@
 # PCF-DotNet-Workshop
+
 ## Pivotal Cloud Native Applications .NET Workshop
 This one day hands-on classroom style session will provide developers with hands on experience building .NET Core and .NET 4.6 applications for Pivotal Cloud Foundry. The session includes presentations, demos and hands on labs.
 
@@ -25,6 +26,11 @@ CF CLI
 
 - - -
 #### Agenda
+
+##### Session: Pivotal at Dell Today 
+
+- Silicon Vallye State of Mind 
+
 ##### Session: Introductions, Purpose, and Objectives
 
 - Tell us about yourself 
@@ -147,9 +153,6 @@ Discuss Microservices on PCF
 -   Creating a Blue-Green Deployment Definition for PCF
 -   Implementation Guide: [CI/CD Pipelines for VSTS/TFS](./documents/PivotalTeamFoundationServicesCICD.docx.pdf)  
 
-##### Session: Pivotal LABS 
-
-- Silicon Vallye State of Mind 
 
 ##### Session: Pivotal Kontainer Services 
 
