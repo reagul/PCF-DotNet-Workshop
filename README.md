@@ -53,7 +53,7 @@ CF CLI
  - cd ViewEnvironment
  
 Folks pair and start pushing Demo apps into the PCF env 
-- CF PUSH 
+- `cf push`
 - Edit Manifest
 - CF Scale 
 - MAP Routes 
