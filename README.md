@@ -56,7 +56,7 @@ Folks pair and start pushing Demo apps into the PCF env
 - `cf target` 
 
 ```diff
-+ We will work with both Classic and Dotnet Core versions for this Demo.
+- We will work with both Classic and Dotnet Core versions for this Demo.
 ```
 
  A) Dotnet Classic App : [Dotnet Environment Viewer App](https://github.com/reagul/pcf-dotnet-environment-viewer) 
