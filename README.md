@@ -131,6 +131,9 @@ Discuss Microservices on PCF
 -   Demo PCF Stack Trace
 -   Demo WCF / ASMX / Feature Toggle 
 
+##### Security with PCF SSO #####
+
+- Discuss PCF SSO 
 
 ##### Session Optional : CI-CD Pipelines with Team Services (Demo)
 
