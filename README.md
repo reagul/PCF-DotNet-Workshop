@@ -52,10 +52,9 @@ CF CLI
 - Demo Orgs, Spaces, and Roles
 - Discuss Stemcell / Buildpacks 
 - Containers and Diego
-- Windows Garden Containers 
-- Dotnet Middleware { Build packs } 
-- Demo Dotnet Buildpacks 
-
+- Dotnet Design Considerations
+- Dotnet Trouble shooting Tips
+ 
 
 ##### LAB 1 : Pushing apps on PCF  
 Folks pair and start pushing Demo apps into the PCF env 
