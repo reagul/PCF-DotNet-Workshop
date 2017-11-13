@@ -104,6 +104,7 @@ Folks pair and start pushing Demo apps into the PCF env
 	`cf logs <appname>  --recent`
 -   Application Metrics: Optional Demo PCF Metrics Viewer 
 
+Special Mention - Trace Router 
 
 ##### Session Demo/Discuss : PCF and SQL Server Integration
 
@@ -119,6 +120,7 @@ Demo focused on the basics of using Microsoft SQL Server with Pivotal Cloud Foun
 - Discuss Mechanics of CI / CD : Discuss Routing 
 - How Rollback Works 
 - Discuss Blue Green Deployment 
+- Recorded Demo 
 
 ##### Lunch : 1 hr @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
