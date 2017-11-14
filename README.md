@@ -143,12 +143,12 @@ Discuss Microservices on PCF
 Source Templates : https://github.com/SteeltoeOSS/Samples
 
 ##### LAB 3  : **Config Server**
-    * clone config repo from https://github.com/reagul/config-repo
+    * Fork this to your Git Account..https://github.com/reagul/config-repo
     * Create this file on your local dir with this content. Name this file config-server.json
     
     	{
     "git" : {
-        "uri": "https://github.com/spring-cloud-samples/config-repo"
+        "uri": "https://github.com/<yourname>/config-repo"
     		}
 	}
     * cf create-service p-config-server standard myConfigServer -c ./config-server.json
