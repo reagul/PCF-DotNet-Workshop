@@ -168,9 +168,23 @@ Discuss Microservices on PCF
     * dotnet restore
     * dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
     * cf push -f manifest.yml -p PUBLISH
-    
+        
 -   **Demo Hysterix**
-    *Steps
+    * Create Eureka - cf create-service p-service-registry standard myDiscoveryService
+    * cd SteelToeSamples/CircuitBreaker/src/AspDotnetCore
+    * Create Hysterix Dashboard - cf create-service p-circuit-breaker-dashboard standard myHystrixService
+    * cd Fortune-Teller/Fortune-Teller-Service
+    * mkdir PUBLISH
+    * dotnet restore
+    * dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
+    * cf push -f manifest.yml -p PUBLISH
+    * cd Fortune-Teller/Fortune-Teller-UI
+    * mkdir PUBLISH
+    * dotnet restore
+    * dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
+    * cf push -f manifest.yml -p PUBLISH
+    
+ 
 -   **Demo PCF Stack Trace**
 -   **Demo WCF / ASMX / Feature Toggle**
 
