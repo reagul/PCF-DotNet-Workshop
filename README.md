@@ -133,7 +133,9 @@ Discuss Microservices on PCF
 - Considerations 
 - [SteelToe](www.steeltoe.io)
 
-##### Microservice Labs
+##### Microservice Labs 
+
+Source Templates : https://github.com/SteeltoeOSS/Samples
 
 ##### LAB 3  : **Config Server**
     * clone config repo from https://github.com/reagul/config-repo
