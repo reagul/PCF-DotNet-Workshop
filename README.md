@@ -12,7 +12,7 @@ You may need to follow these instructions here to set your proxy settings for th
 PCF Developer Account 
 
 - Valid Pivotal Cloud Foundry Developer Account ** Find it on your Confluence Wiki **
-- Or Ask us for one
+- We have one for you. https://apps.run.haas-161.pez.pivotal.io/
 
 Visual Studio 
 
