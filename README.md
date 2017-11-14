@@ -94,15 +94,15 @@ Folks pair and start pushing Demo apps into the PCF env
 
 ##### LAB 2 : Services / Logging / Metrics 
 
--  List the available services in the marketplace  `cf m`
-- Create a MySQL Service
+* List the available services in the marketplace  `cf m`
+* Create a MySQL Service
    `cf create-service p-mysql 100mb mysqldb-{yourappname}`
-- Bind Service : Use the Dotnet classic app name instead of  {yourappname} 
+* Bind Service : Use the Dotnet classic app name instead of  {yourappname} 
    `cf bind-service {yourappname} mysqldb-{yourappname} ` 
-- Open the Environment Viewer app and locate the MySQL environment Vars.
--   Application Logging : 
+* Open the Environment Viewer app and locate the MySQL environment Vars.
+* Application Logging : 
 	`cf logs <appname>  --recent`
--   Application Metrics: Optional Demo PCF Metrics Viewer 
+* Application Metrics: Optional Demo PCF Metrics Viewer 
 
 Special Mention - Trace Router 
 
