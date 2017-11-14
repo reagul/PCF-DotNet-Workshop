@@ -146,15 +146,9 @@ Discuss Microservices on PCF
 
 - Discuss PCF SSO 
 
-##### Session Optional : CI-CD Pipelines with Team Services (Demo)
+##### Session Optional : DotNet Roadmap
 
--   Setting Up Endpoints for Services
--   Creating a .NET Core Build Job for PCF
--   Creating a .NET Classic Build Job for PCF
--   Creating a Deployment Definition for PCF
--   Creating a Blue-Green Deployment Definition for PCF
--   Implementation Guide: [CI/CD Pipelines for VSTS/TFS](./documents/PivotalTeamFoundationServicesCICD.docx.pdf)  
-
+- Discuss DotNet Roadmap for PCF 
 
 ##### Session: Pivotal Kontainer Services 
 
