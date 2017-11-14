@@ -133,9 +133,9 @@ Discuss Microservices on PCF
 - Considerations 
 - [SteelToe](www.steeltoe.io)
 
-##### Microservice Demos
+##### Microservice Labs
 
--   **Demo Config Server**
+-   **Config Server**
     * clone config repo from https://github.com/reagul/config-repo
     * cf create-service p-config-server standard myConfigServer -c ./config-server.json
     * clone Config sample from https://github.com/SteeltoeOSS/Samples
@@ -155,7 +155,7 @@ Discuss Microservices on PCF
 * ConfigServer.cshtml - The view used to display the data returned from the config server.
 
     
--   **Demo Service Discovery**
+-   **Service Discovery**
     * cd SteelToeSamples/Discovery/src/AspDotnetCore
     * cd FortuneTellService
     * mkdir PUBLISH
