@@ -135,14 +135,23 @@ Discuss Microservices on PCF
 ##### Microservice Demos
 
 -   Demo Config Server
-    clone config repo from https://github.com/reagul/config-repo
-    cf create-service p-config-server standard myConfigServer -c ./config-server.json
-    clone Config sample from https://github.com/SteeltoeOSS/Samples
-    cd Configuration/src/AspDotNetCore/SimpleCloudFoundry
-    dotnet restore 
-    mkdir PUBLISH
-    dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
-    cf push -f manifest.yml -p PUBLISH
+    * clone config repo from https://github.com/reagul/config-repo
+    * cf create-service p-config-server standard myConfigServer -c ./config-server.json
+    * clone Config sample from https://github.com/SteeltoeOSS/Samples
+    * cd Configuration/src/AspDotNetCore/SimpleCloudFoundry
+    * dotnet restore 
+    * mkdir PUBLISH
+    * dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
+    * cf push -f manifest.yml -p PUBLISH
+    
+ * SimpleCloudFoundry.csproj - Contains PackageReference for Steeltoe NuGet Pivotal.Extensions.Configuration.ConfigServer
+* Program.cs - Code added to read the --server.urls command line.
+* appsettings.json - Contains configuration data needed for the Steeltoe Config Server provider.
+* ConfigServerData.cs - Object used to hold the data retrieved from the config server
+* Startup.cs - Code added to the ConfigurationBuilder and ConfigServerData Options added to the service container.
+* HomeController.cs - Code added for ConfigServerData Options injected into the controller and ultimately used to display the data returned from config server.
+* ConfigServer.cshtml - The view used to display the data returned from the config server.
+
     
 -   Demo Service Discovery 
 -   Demo Hysterix
