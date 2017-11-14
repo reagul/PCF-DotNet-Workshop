@@ -52,6 +52,7 @@ CF CLI
 - Demo Orgs, Spaces, and Roles
 - Discuss Stemcell / Buildpacks 
 - Containers and Diego
+- AppAutoscaler
 - Dotnet Design Considerations
 - Dotnet Trouble shooting Tips
  
@@ -143,7 +144,8 @@ Discuss Microservices on PCF
     * mkdir PUBLISH
     * dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
     * cf push -f manifest.yml -p PUBLISH
-    
+ 
+ ** Edit the Project to add more configs ** 
  * SimpleCloudFoundry.csproj - Contains PackageReference for Steeltoe NuGet Pivotal.Extensions.Configuration.ConfigServer
 * Program.cs - Code added to read the --server.urls command line.
 * appsettings.json - Contains configuration data needed for the Steeltoe Config Server provider.
@@ -154,7 +156,9 @@ Discuss Microservices on PCF
 
     
 -   **Demo Service Discovery**
+    *Steps
 -   **Demo Hysterix**
+    *Steps
 -   **Demo PCF Stack Trace**
 -   **Demo WCF / ASMX / Feature Toggle**
 
