@@ -13,6 +13,7 @@ PCF Developer Account
 
 - Valid Pivotal Cloud Foundry Developer Account ** Find it on your Confluence Wiki **
 - We have one for you. https://apps.run.haas-161.pez.pivotal.io/
+- student-# / student-#
 
 Visual Studio 
 
