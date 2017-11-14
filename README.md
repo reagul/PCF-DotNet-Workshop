@@ -189,4 +189,4 @@ Discuss Microservices on PCF
 - Kubernetes on Steroids  [Read more here](https://pivotal.io/pks)
 
 #### 12 Factor Apps ####
-![12 Factor APPS](https://github.com/reagul/PCF-DotNet-Workshop/documents/12-F.png)
+![12 Factor APPS](https://github.com/reagul/PCF-DotNet-Workshop/blob/master/documents/12-F.png)
