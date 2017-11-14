@@ -156,18 +156,18 @@ Discuss Microservices on PCF
 
     
 -   **Demo Service Discovery**
-    *cd SteelToeSamples/Discovery/src/AspDotnetCore
-    *cd FortuneTellService
-    *mkdir PUBLISH
-    *dotnet restore
-    *dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
-    *cf create-service p-service-registry standard myDiscoveryService
-    *cf push -f manifest.yml -p PUBLISH
-    *cd FortuneTeller-UI
-    *mkdir PUBLISH
-    *dotnet restore
-    *dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
-    *cf push -f manifest.yml -p PUBLISH
+    * cd SteelToeSamples/Discovery/src/AspDotnetCore
+    * cd FortuneTellService
+    * mkdir PUBLISH
+    * dotnet restore
+    * dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
+    * cf create-service p-service-registry standard myDiscoveryService
+    * cf push -f manifest.yml -p PUBLISH
+    * cd FortuneTeller-UI
+    * mkdir PUBLISH
+    * dotnet restore
+    * dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
+    * cf push -f manifest.yml -p PUBLISH
     
 -   **Demo Hysterix**
     *Steps
