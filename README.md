@@ -171,7 +171,7 @@ Source Templates : https://github.com/SteeltoeOSS/Samples
     * dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
     * cf push -f manifest.yml -p PUBLISH
         
-##### LAB 5 : **Demo Hysterix**
+##### LAB 5 : ** OPTIONAL Hysterix**
     * Create Eureka - cf create-service p-service-registry standard myDiscoveryService
     * cd SteelToeSamples/CircuitBreaker/src/AspDotnetCore
     * Create Hysterix Dashboard - cf create-service p-circuit-breaker-dashboard standard myHystrixService
