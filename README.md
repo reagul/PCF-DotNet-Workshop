@@ -134,7 +134,7 @@ Discuss Microservices on PCF
 
 ##### Microservice Demos
 
--   Demo Config Server
+-   **Demo Config Server**
     * clone config repo from https://github.com/reagul/config-repo
     * cf create-service p-config-server standard myConfigServer -c ./config-server.json
     * clone Config sample from https://github.com/SteeltoeOSS/Samples
@@ -153,10 +153,10 @@ Discuss Microservices on PCF
 * ConfigServer.cshtml - The view used to display the data returned from the config server.
 
     
--   Demo Service Discovery 
--   Demo Hysterix
--   Demo PCF Stack Trace
--   Demo WCF / ASMX / Feature Toggle 
+-   **Demo Service Discovery**
+-   **Demo Hysterix**
+-   **Demo PCF Stack Trace**
+-   **Demo WCF / ASMX / Feature Toggle**
 
 ##### Break 15 mins @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
