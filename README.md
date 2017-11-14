@@ -92,7 +92,7 @@ Folks pair and start pushing Demo apps into the PCF env
 
 ##### Break 15 mins @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
-##### LAB 2 : Services / Logging / Metrics 
+##### LAB 2 : **Services / Logging / Metrics**
 
 * List the available services in the marketplace  `cf m`
 * Create a MySQL Service
