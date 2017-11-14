@@ -135,7 +135,7 @@ Discuss Microservices on PCF
 
 ##### Microservice Labs
 
--   **Config Server**
+##### LAB 3  : **Config Server**
     * clone config repo from https://github.com/reagul/config-repo
     * cf create-service p-config-server standard myConfigServer -c ./config-server.json
     * clone Config sample from https://github.com/SteeltoeOSS/Samples
@@ -155,7 +155,7 @@ Discuss Microservices on PCF
 * ConfigServer.cshtml - The view used to display the data returned from the config server.
 
     
--   **Service Discovery**
+##### LAB 4 : **Service Discovery**
     * cd SteelToeSamples/Discovery/src/AspDotnetCore
     * cd FortuneTellService
     * mkdir PUBLISH
@@ -169,7 +169,7 @@ Discuss Microservices on PCF
     * dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
     * cf push -f manifest.yml -p PUBLISH
         
--   **Demo Hysterix**
+##### LAB 5 : **Demo Hysterix**
     * Create Eureka - cf create-service p-service-registry standard myDiscoveryService
     * cd SteelToeSamples/CircuitBreaker/src/AspDotnetCore
     * Create Hysterix Dashboard - cf create-service p-circuit-breaker-dashboard standard myHystrixService
