@@ -25,6 +25,10 @@ CF CLI
 - [Download Windows Cloud Foundry CLI](https://cli.run.pivotal.io/stable?release=windows64&source=github)
 - [Download Mac Cloud Foundry CLI](https://cli.run.pivotal.io/stable?release=macosx64-binary&source=github)
 
+- cf login api.run.haas-161.pez.pivotal.io --skip-ssl-validation
+
+
+
 - - -
 #### Agenda
 
