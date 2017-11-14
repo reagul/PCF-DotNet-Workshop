@@ -135,6 +135,15 @@ Discuss Microservices on PCF
 ##### Microservice Demos
 
 -   Demo Config Server
+    clone config repo from https://github.com/reagul/config-repo
+    cf create-service p-config-server standard myConfigServer -c ./config-server.json
+    clone Config sample from https://github.com/SteeltoeOSS/Samples
+    cd Configuration/src/AspDotNetCore/SimpleCloudFoundry
+    dotnet restore 
+    mkdir PUBLISH
+    dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH
+    cf push -f manifest.yml -p PUBLISH
+    
 -   Demo Service Discovery 
 -   Demo Hysterix
 -   Demo PCF Stack Trace
