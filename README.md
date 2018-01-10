@@ -81,7 +81,6 @@ Folks pair and start pushing Demo apps into the PCF env
  - git clone https://github.com/reagul/Workshop-Web-MVC-Core
  - cd Workshop-Web-MVC-Core
  - Run `dotnet restore`
- - mkdir PUBLISH 
  - Run `dotnet publish -f netcoreapp2.0 -r ubuntu.14.04-x64 -o PUBLISH`
  - Run `cf push {yourappname} -b dotnet_core_buildpack  -p  PUBLISH`
  
